@@ -16,7 +16,7 @@ export default function Projects() {
               <div className="flex  ">
                 <h2 className="text-xl">{project.name}</h2>
                 <button className="ml-auto mr-2 bg-gray-200 bg-opacity-80 w-20 h-10 rounded-md">
-                  View
+                  <a href={`/project/${project.id}`}>View</a>
                 </button>
               </div>
 
