@@ -5,7 +5,7 @@ const projectSchema = new mongoose.Schema({
   description: {
     type: String,
   },
-  status: { type: String, enum: ["Not Started", "In Progess", "Completed"] },
+  status: { type: String, enum: ["Not Started", "In Progress", "Completed"] },
   clientId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Client",
