@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <>
       {!loading && !error && data && (
-        <div className="grid gap-5 md:grid-cols-2">
+        <div className="grid gap-5 md:grid-cols-2 mb-7">
           {projects.map((project) => (
             <div
               key={project.id}
